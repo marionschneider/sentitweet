@@ -6,7 +6,6 @@ var host = location.origin.replace(/^http/, 'ws')
 			
         var datoos = JSON.parse(event.data);
 			console.log(datoos);
-			 //tabdatos[datoos];
-			// console.log(tabdatos);
+			
 			 
       		};
