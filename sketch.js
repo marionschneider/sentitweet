@@ -1,3 +1,6 @@
+///////////   ***      THIS QUICK SKETCH USING P5 Libary WILL DISPLAY THE VALUES ON YOUR HTML PAGE      ****    ////////////////
+
+
 var datoos;  
 var foo;
 var countmes;
@@ -42,9 +45,7 @@ function scorewrite(lescore, letweet, lesentiment){
 			background(0);
 			noFill();
 			stroke(255);
-			//rect(170, 170, 300, 100);
-			//rect(170, 320, 1000, 200);
-			//rect(900, 230, 270, 90);
+			
 	//titre: tweet
 			textStyle(BOLD);
 			textSize(14);
@@ -84,11 +85,6 @@ function scorewrite(lescore, letweet, lesentiment){
 			text(lescore, 200,240);
 			//console.log(lescore);
 			redraw(); 
-	
-	  
-	  
-	  //connection thingspeak
-	
 
 							}
 
