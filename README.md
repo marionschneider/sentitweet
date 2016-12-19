@@ -15,7 +15,7 @@ ws : https://www.npmjs.com/package/ws
 
 In order to connect with the twitter API, you will also need to get some ( a lot ) of access keys that you can get at https://dev.twitter.com/ They are all grouped in the config file. You have to update them with your own.
 
-The values are all stored in a Thingspeak public channel I created. You can easily create your own at https://thingspeak.com/
+The values are all stored in a Thingspeak public channel I created. It does a good job storing data every 15 seconds in json format, providing a url that you can then parse with your arduino code. You can easily create your own channel at https://thingspeak.com/
 
 The twitter account related to the artwork is @sentitweeet.
 The app runs on a server but can be run localy at port 9997.
